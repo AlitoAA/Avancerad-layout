@@ -78,11 +78,25 @@ footer {
 form {
     display: grid;
     grid-template-columns: 1fr;
+    margin: 0 auto;
 }
 
 
 .send-button-container {
     margin: 0 auto;
-    padding-bottom: 5px;
-    padding-top: 5px;
+}
+
+label {
+    display: block;
+    padding-bottom: 7px;
+}
+
+@media (min-width:600px) {
+    form {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .send-button-container {
+        grid-column: span 2;
+    }
 }
