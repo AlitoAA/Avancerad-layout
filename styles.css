@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #4E8098;
+    background-color: #0E5D81;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +27,7 @@ header nav {
 
 header nav a {
     text-decoration: none;
-    color: #4E8098;
+    color: #0E5D81;
     background-color: #FCF7F8;
     border-radius: 20px;
     padding: 5px 10px;
@@ -49,7 +49,7 @@ article {
 }
 
 footer {
-    background-color: #4E8098;
+    background-color: #0E5D81;
     color: #FCF7F8;
     display: flex;
     justify-content: center;
